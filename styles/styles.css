@@ -29,7 +29,7 @@ header,
 .grid,
 footer {
     max-width: 840px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 nav {
@@ -68,6 +68,16 @@ main img {
 p {
     padding: 0;
     margin: var(--standard-padding);
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+
+main {
+    grid-column: 2 / 3;
+    margin: 1rem;
 }
 
 aside {
@@ -110,14 +120,4 @@ footer {
 
 .indent {
     padding-left: 2rem;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
-}
-
-main {
-    grid-column: 2 / 3;
-    margin: 1rem;
 }
