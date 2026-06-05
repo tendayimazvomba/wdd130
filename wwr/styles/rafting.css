@@ -114,7 +114,7 @@ h1 {
     margin-top: 100px;
 }
 
-/* Class Selectors */
+/* History Class Selectors */
 .history {
     display: grid;
     grid-template-columns: 1.3fr 250px 1.3fr;
@@ -133,4 +133,58 @@ h1 {
 
 .history p {
     font-size: 0.9rem;
+}
+
+/* Adventures Class Selectors */
+.adventures {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.adventures h2 {
+    width: 100%;
+    text-align: center;
+}
+
+.adventures figure {
+    width: 18%;
+    text-align: center;
+}
+
+.adventures img {
+    width: 100%;
+    height: 120px;
+    object-fit: cover;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid var(--secondary-color);
+    margin-top: 30px;
+    padding: 10px 0;
+}
+
+footer p {
+    white-space: nowrap;
+}
+
+.socialmedia {
+    display: flex;
+    gap: 5px;
+}
+
+.socialmedia a {
+    padding: 0;
+    margin: 0;
+    border: none;
+    background: none;
+}
+
+.socialmedia img {
+    width: 40px;
+    height: 40px;
+    display: block;
 }
