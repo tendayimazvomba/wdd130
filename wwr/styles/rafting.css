@@ -1,12 +1,8 @@
 :root {
     --primary-color: #1b4965;
-    /*deep river blue*/
     --secondary-color: #5fa8d3;
-    /*forest green*/
-    --accent1-color: #cae9ff;
-    /*sunset orange*/
+    --accent1-color: #0a2b43;
     --accent2-color: white;
-    /*waterfall white*/
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -110,10 +106,31 @@ h1 {
 .hero article img {
     float: right;
     width: 125px;
-    border: 3px solid var(--accent2-color);
+    border: 3px solid var(--secondary-color);
     border-radius: 8px;
 }
 
 .hero section:first-of-type {
     margin-top: 100px;
+}
+
+/* Class Selectors */
+.history {
+    display: grid;
+    grid-template-columns: 1.3fr 250px 1.3fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.history h2 {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+.history img {
+    width: 100%;
+}
+
+.history p {
+    font-size: 0.9rem;
 }
