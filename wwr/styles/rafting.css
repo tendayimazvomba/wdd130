@@ -66,10 +66,6 @@ article {
     padding: 8px;
 }
 
-.socialmedia a {
-    text-decoration: none;
-}
-
 /*Hero Div Overlays*/
 
 .hero {
@@ -181,6 +177,7 @@ footer p {
     margin: 0;
     border: none;
     background: none;
+    text-decoration: none;
 }
 
 .socialmedia img {
