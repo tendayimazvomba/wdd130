@@ -8,7 +8,7 @@
     <meta name="description"
       content="Contact Zambezi River White Water Rafting Adventures for reservations, questions, and customer support.">
     <meta name="author" content="Tendayi Gabriel Mazvomba">
-    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
@@ -26,7 +26,7 @@
     </header>
     <main>
         <section class="company-info">
-            <h1>Zambezi River White Water Rafting</h1>
+            <h1>Zambezi River White Water Rafting Adventures</h1>
 
             <p>382 Mosi-Oa_Tunya Road</p>
             <p>Victoria Falls, Zimbabwe</p>
@@ -52,42 +52,65 @@
                       placeholder="Enter your email address" required>
 
 
-                    <label>Message Purpose</label>
+                    <label class="purpose-label">Message Purpose</label>
 
                     <fieldset>
                         <legend>Purpose</legend>
 
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>General
-                            Inquiry</label>
+                        <div class="radio-group">
+                            <label class="radio-option">
+                                <input type="radio" name="purpose" value="general" required>General
+                                Inquiry</label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">Reservation
-                            Question</label>
+                            <label class="radio-option">
+                                <input type="radio" name="purpose" value="reservation">Reservation
+                                Question</label>
 
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">Website
-                            Suggestion</label>
+                            <label class="radio-option">
+                                <input type="radio" name="purpose" value="suggestion">Website
+                                Suggestion</label>
+                        </div>
+
                     </fieldset>
 
                     <label for="message">Message</label>
                     <textarea id="message" name="message" rows="4"
                       placeholder="Type your message here" required></textarea>
 
-                    <div>
-                        <label class="newsletter">
-                            <input type="checkbox" id="newsletter" name="newsletter">Please
+                    <div class="checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Please
                             Subscribe me to the
                             monthly newsletter
                         </label>
-                    </div>
 
+                    </div>
                     <button type="submit">Get in Touch!</button>
                 </form>
             </div>
         </section>
 
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
 
+            <div class="staff">
+
+                <figure>
+                    <img src="images/manager.jpeg" alt="Operations Manager">
+                    <figcaption>Operations Manager</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/guide.jpeg" alt="Lead River Guide">
+                    <figcaption>Lead River Guide</figcaption>
+                </figure>
+
+                <figure>
+                    <img src="images/customer-service.jpeg" alt="Customer Service Representative">
+                    <figcaption>Customer Service Representative</figcaption>
+                </figure>
+            </div>
+        </section>
     </main>
     <footer>
         <p>&copy;2026 🌊Zambezi River White Water Rafting Adventures🌊 Tendayi Gabriel Mazvomba</p>
