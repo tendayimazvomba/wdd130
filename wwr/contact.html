@@ -42,42 +42,49 @@
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
-            <form action="#" method="post">
-                <label for="username">Name</label>
-                <input type="text" id="username" placeholder="Enter your name" required>
+            <div class="contact-form">
+                <form action="#" method="post">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" placeholder="Enter your name" required>
 
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" placeholder="Enter your email address"
-                  required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email"
+                      placeholder="Enter your email address" required>
 
-                <fieldset>
-                    <legend>Message Purpose</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="general" required>General
-                        Inquiry</label>
+                    <label>Message Purpose</label>
 
-                    <label>
-                        <input type="radio" name="purpose" value="reservation">Reservation
-                        Question</label>
+                    <fieldset>
+                        <legend>Purpose</legend>
 
-                    <label>
-                        <input type="radio" name="purpose" value="suggestion">Website
-                        Suggestion</label>
-                </fieldset>
+                        <label>
+                            <input type="radio" name="purpose" value="general" required>General
+                            Inquiry</label>
 
-                <label for="message">Message</label>
-                <textarea id="message" name="message" rows="4" placeholder="Type your message here"
-                  required></textarea>
+                        <label>
+                            <input type="radio" name="purpose" value="reservation">Reservation
+                            Question</label>
 
-                <div class="checkbox">
-                    <label for="newsletter">Please Subscribe me to the
-                        monthly newsletter</label>
-                    <input type="checkbox" id="newsletter" name="newsletter">
-                </div>
+                        <label>
+                            <input type="radio" name="purpose" value="suggestion">Website
+                            Suggestion</label>
+                    </fieldset>
 
-                <button type="submit">Get in Touch!</button>
-            </form>
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="4"
+                      placeholder="Type your message here" required></textarea>
+
+                    <div>
+                        <label class="newsletter">
+                            <input type="checkbox" id="newsletter" name="newsletter">Please
+                            Subscribe me to the
+                            monthly newsletter
+                        </label>
+                    </div>
+
+                    <button type="submit">Get in Touch!</button>
+                </form>
+            </div>
         </section>
 
 

@@ -93,7 +93,9 @@ h1 {
 
 .contact-form form {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    align-items: start;
 }
 
 input,
