@@ -38,14 +38,14 @@
             <div class="map">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3435.504284987786!2d25.827426474786737!3d-17.91555077875298!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x194ffab5872d5e1f%3A0x6e54d5aa13837f8!2s382%20Mosi%20-%20Oa%20-%20Tunya%20Road%2C%20Victoria%20Falls!5e1!3m2!1sen!2szw!4v1781311375290!5m2!1sen!2szw"
-                  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+                  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
 
             <div class="contact-form">
                 <form action="#" method="post">
                     <label for="username">Name</label>
-                    <input type="text" id="username" placeholder="Enter your name" required>
+                    <input type="text" id="username" name="username" placeholder="Enter your name"
+                      required>
 
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email"
@@ -58,16 +58,19 @@
                         <legend>Purpose</legend>
 
                         <div class="radio-group">
-                            <label class="radio-option">
-                                <input type="radio" name="purpose" value="general" required>General
+                            <label for="general" class="radio-option">
+                                <input type="radio" id="general" name="purpose" value="general"
+                                  required>General
                                 Inquiry</label>
 
-                            <label class="radio-option">
-                                <input type="radio" name="purpose" value="reservation">Reservation
+                            <label for="reservation" class="radio-option">
+                                <input type="radio" id="reservation" name="purpose"
+                                  value="reservation">Reservation
                                 Question</label>
 
-                            <label class="radio-option">
-                                <input type="radio" name="purpose" value="suggestion">Website
+                            <label for="suggestion" class="radio-option">
+                                <input type="radio" id="suggestion" name="purpose"
+                                  value="suggestion">Website
                                 Suggestion</label>
                         </div>
 
