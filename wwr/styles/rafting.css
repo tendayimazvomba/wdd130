@@ -430,3 +430,70 @@ input[type="checkbox"] {
     text-decoration: none;
     border-radius: 5px;
 }
+
+/* Trips Page */
+
+.trips-page .trip-cta {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.trips-page .button {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.trips-page .trip-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    margin: 3rem 0;
+}
+
+.trips-page .trip-card {
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid var(--accent2-color);
+    border-radius: 10px;
+}
+
+.trips-page .trip-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.trips-page .trip-card h2 {
+    margin: 1rem;
+}
+
+.trips-page .trip-card p {
+    line-height: 1.5;
+}
+
+.trips-page .trip-table h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.trips-page table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-page th,
+.trips-page td {
+    border: 1px solid var(--accent2-color);
+    padding: 1rem;
+    text-align: center;
+}
+
+.trips-page th {
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+}
