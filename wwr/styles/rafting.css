@@ -74,17 +74,18 @@ article {
     padding: .5rem;
 }
 
-/*About Page Hero Div Overlays*/
-
-.about-page .hero {
+/*Hero Overlays*/
+.hero {
     position: relative;
 }
 
-.about-page .hero img {
+.hero img {
     display: block;
     width: 100%;
     height: auto;
 }
+
+/*About Page Hero Div Overlays*/
 
 .about-page .hero h1 {
     position: absolute;
@@ -331,4 +332,101 @@ input[type="checkbox"] {
 .company-info h1 {
     text-align: center;
     margin-bottom: 0.5rem;
+}
+
+/*Home Page Hero*/
+
+.home-page .hero h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1;
+    width: 95%;
+    text-align: center;
+    opacity: 0.7;
+    color: var(--accent2-color);
+    background-color: rgba(27, 73, 101, 0.8);
+    padding: 1rem;
+}
+
+.home-page .newsletter {
+    margin: 2rem 0;
+}
+
+.home-page .newsletter h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.home-page .newsletter form {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.home-page .form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-page .form-group label {
+    margin: 0.5rem;
+}
+
+.home-page input {
+    padding: 0.75rem;
+    width: 250px;
+    border: 1px solid var(--primary-color);
+    border-radius: 5px;
+}
+
+.home-page button {
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    border: none;
+    border-radius: 5px;
+}
+
+.home-page .home-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+    margin: 3rem 0;
+}
+
+.home-page .grid-item {
+    padding: 1rem;
+    text-align: center;
+}
+
+.home-page .grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.home-page .grid-item h2 {
+    margin: 1rem 0;
+
+}
+
+.home-page .grid-item p {
+    line-height: 1.5rem;
+}
+
+.home-page .call-to-action {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.home-page .button {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: var(--primary-color);
+    color: var(--accent2-color);
+    text-decoration: none;
+    border-radius: 5px;
 }
