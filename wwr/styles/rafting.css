@@ -25,6 +25,11 @@ footer {
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+    height: auto;
+}
+
 header {
     display: grid;
     grid-template-columns: 250px 1fr;
@@ -39,7 +44,9 @@ header img {
 /* Nav selectors */
 nav ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-around;
+    align-items: center;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -67,19 +74,19 @@ article {
     padding: .5rem;
 }
 
-/*Hero Div Overlays*/
+/*About Page Hero Div Overlays*/
 
-.hero {
+.about-page .hero {
     position: relative;
 }
 
-.hero img {
+.about-page .hero img {
     display: block;
     width: 100%;
     height: auto;
 }
 
-.hero h1 {
+.about-page .hero h1 {
     position: absolute;
     top: 20px;
     width: 100%;
@@ -90,7 +97,7 @@ article {
     color: var(--accent2-color);
 }
 
-.hero article {
+.about-page .hero article {
     position: absolute;
     top: 320px;
     width: 100%;
@@ -100,14 +107,14 @@ article {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-.hero article img {
+.about-page .hero article img {
     float: right;
     width: 125px;
     border: 3px solid var(--secondary-color);
     border-radius: 8px;
 }
 
-.hero section:first-of-type {
+.about-page .hero section:first-of-type {
     margin-top: 100px;
 }
 
