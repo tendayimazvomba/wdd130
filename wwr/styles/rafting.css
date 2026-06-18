@@ -101,7 +101,7 @@ article {
 .about-page .hero article {
     position: absolute;
     top: 320px;
-    width: 100%;
+    width: 95%;
     background-color: rgba(27, 73, 101, 0.85);
     color: var(--accent2-color);
     border-radius: 10px;
